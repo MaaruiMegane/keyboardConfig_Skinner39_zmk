@@ -9,10 +9,10 @@
 
         L_alpha1,R_mouse+shortcut {
             bindings = <
-  &kp P  &kp K         &kp R         &kp A      &kp F                                     &kp LA(GRAVE)  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &kp ESC
-  &kp D  &kp T         &kp H         &kp E      &kp O                                     &kp MINUS      &mkp LCLK         &mkp RCLK       &kp F2  &kp F10
-  &kp Y  &kp S         &kp N         &kp I      &kp U                                     &kp COMMA      &kp PERIOD        &trans          &kp F7  &kp F8
-  &mo 3  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER  &kp LEFT_SHIFT  &kp BACKSPACE                                            &trans
+  &kp P  &kp K         &kp R         &kp A      &kp F                                     &kp LA(GRAVE)  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp ESC
+  &kp D  &kp T         &kp H         &kp E      &kp O                                     &kp MINUS      &mkp LCLK         &mkp RCLK       &kp UP    &trans
+  &kp Y  &kp S         &kp N         &kp I      &kp U                                     &kp COMMA      &kp PERIOD        &kp LEFT        &kp DOWN  &kp RIGHT
+  &mo 3  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER  &kp LEFT_SHIFT  &kp BACKSPACE                                              &trans
             >;
         };
 
@@ -27,19 +27,19 @@
 
         symbol_layer {
             bindings = <
-  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &trans           &trans       &trans    &trans      &trans                       &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-  &trans           &trans       &trans    &trans      &trans                       &trans     &kp PLUS       &trans            &trans                &kp BACKSLASH
-  &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                            &trans
+  &trans  &trans  &trans  &trans  &trans                  &kp AMPS  &kp ASTERISK  &kp LPAR   &kp RPAR  &trans
+  &trans  &trans  &trans  &trans  &trans                  &kp DLLR  &kp PRCNT     &kp CARET  &trans    &trans
+  &trans  &trans  &trans  &trans  &trans                  &kp EXCL  &kp AT        &kp HASH   &trans    &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RPAR                                     &trans
             >;
         };
 
         L_shortcut,R_shortcut+BT {
             bindings = <
-  &trans     &trans     &trans     &trans     &kp LC(T)                  &kp LC(Y)  &trans  &trans        &trans        &trans
-  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)                  &kp LC(H)  &trans  &trans        &trans        &trans
-  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)                  &kp LC(N)  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
-  &trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans                                         &bt BT_CLR
+  &trans            &trans     &trans     &trans            &kp LC(T)                  &kp LC(Y)  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2
+  &kp LC(A)         &kp LC(S)  &kp LC(D)  &kp LC(F)         &kp LC(G)                  &kp LC(H)  &trans      &trans        &kp PAGE_UP    &trans
+  &kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)         &kp LC(B)                  &kp LC(N)  &trans      &kp HOME      &kp PAGE_DOWN  &kp END
+  &kp LEFT_CONTROL  &trans     &trans     &kp LEFT_CONTROL  &trans     &trans  &trans  &trans                                              &trans
             >;
         };
 
