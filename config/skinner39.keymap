@@ -36,10 +36,10 @@
 
         L_shortcut,R_ {
             bindings = <
-  &trans     &trans     &trans     &trans     &kp LC(T)                  &kp LC(Y)  &trans  &trans  &trans  &trans
-  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)                  &kp LC(H)  &trans  &trans  &trans  &trans
-  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)                  &kp LC(N)  &trans  &trans  &trans  &trans
-  &trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans                             &trans
+  &trans     &trans     &trans     &trans     &kp LC(T)                  &kp LC(Y)  &trans  &trans        &trans        &trans
+  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)                  &kp LC(H)  &trans  &trans        &trans        &trans
+  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)                  &kp LC(N)  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+  &trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans                                         &bt BT_CLR
             >;
         };
 
