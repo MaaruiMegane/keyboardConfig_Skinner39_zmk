@@ -10,7 +10,7 @@
         L_alpha1,R_mouse+shortcut {
             bindings = <
   &kp P  &kp K         &kp R         &kp A      &lt 4 F                                   &kp LA(GRAVE)  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp ESC
-  &kp D  &kp T         &kp H         &kp E      &kp O                                     &kp MINUS      &mkp LCLK         &mkp RCLK       &kp UP    &trans
+  &kp D  &kp T         &kp H         &kp E      &kp O                                     &kp MINUS      &mkp LCLK         &mkp RCLK       &kp UP    &mkp MB5
   &kp Y  &kp S         &kp N         &kp I      &kp U                                     &kp COMMA      &kp PERIOD        &kp LEFT        &kp DOWN  &kp RIGHT
   &mo 3  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 TAB  &lt 1 SPACE  &lt 2 ENTER  &kp LEFT_SHIFT  &kp BACKSPACE                                              &trans
             >;
