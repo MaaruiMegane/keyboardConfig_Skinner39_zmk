@@ -30,15 +30,15 @@
   &kp EXCL          &kp AT  &kp HASH  &kp DLLR           &kp PRCNT                          &kp CARET  &kp AMPS   &kp STAR   &kp LPAR  &kp RPAR
   &kp QMARK         &trans  &trans    &kp DOUBLE_QUOTES  &kp BACKSLASH                      &kp MINUS  &kp EQUAL  &kp COLON  &kp LBKT  &kp RBKT
   &kp FSLH          &trans  &trans    &kp SINGLE_QUOTE   &kp PIPE                           &kp LT     &kp GT     &kp SEMI   &kp LBRC  &kp RBRC
-  &kp LEFT_CONTROL  &trans  &trans    &trans             &trans         &trans  &kp LSHIFT  &trans                                     &trans
+  &kp LEFT_CONTROL  &trans  &trans    &trans             &trans         &trans  &kp LSHIFT  &kp DEL                                    &trans
             >;
         };
 
         L_shortcut,R_shortcut+BT {
             bindings = <
-  &trans            &trans     &trans     &trans            &kp LC(T)                          &kp LC(Y)  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2
+  &kp LC(P)         &trans     &trans     &trans            &kp LC(T)                          &kp LC(Y)  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2
   &kp LC(A)         &kp LC(S)  &kp LC(D)  &kp LC(F)         &kp LC(G)                          &kp LC(H)  &trans      &trans        &kp PAGE_UP    &trans
-  &kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)         &kp LC(B)                          &kp LC(N)  &trans      &kp HOME      &kp PAGE_DOWN  &kp END
+  &kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)         &kp LC(B)                          &kp LC(N)  &kp INS     &kp HOME      &kp PAGE_DOWN  &kp END
   &kp LEFT_CONTROL  &trans     &trans     &kp LEFT_CONTROL  &trans     &trans  &kp LEFT_SHIFT  &trans                                              &trans
             >;
         };
